@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first project</title>
+</head>
+<link rel="stylesheet" href="css/stylesheet.css">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@600&display=swap" rel="stylesheet">
+ <style>
+    body {
+    font-family: 'Baloo Bhaina 2', cursive;
+    color: white;
+    margin:  0px;;
+    padding: 0px;
+    background: url('img/portfolio.gpg.jpg');
+}
+.left{
+  
+    position: absolute;
+    display: inline-block;
+    left: 34px;
+    top: 20px;
+}
+.mid{
+
+display: block;
+/* to make center so we use margin */
+width: 45%;
+margin: 20px auto;
+
+}
+.right{
+    position:absolute;
+    right: 34px;
+    top: 20px;
+    
+    display: inline-block;
+
+}
+.navbar{
+    display: inline-block;
+
+
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+    
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: greenyellow;
+}
+.left img{
+    width: 100px;
+    border-radius: 200px;
+    
+    
+}
+.left div{
+    text-align: center;
+    line-height: 22px;
+    font-size: 20px;
+    margin: 0px -37px;
+}
+.btn{
+    font-family: 'Baloo Bhaina 2', cursive;
+    margin: 0px 9px;
+    background-color:black;
+    color: white;
+    padding: 4px 10px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color:darkgrey;
+}
+.container{
+    font-family: 'Baloo Bhaina 2', cursive;
+    border: 2px solid greenyellow;
+    margin: 114px 150px;
+    padding:11px 108px;
+    width: 33%;
+    border-radius: 10px;
+    text-align: center;
+}
+.container .btn{
+    width: 70%;
+    margin: 0px 85px;
+    
+}
+.from-group input{
+    font-family: 'Baloo Bhaina 2', cursive;
+    border-radius: 10px;
+    text-align: center;
+    width: 70%;
+    margin: 5px 78px;
+    
+
+    
+}
+.from-group input:hover{
+    background-color: rgb(51, 49, 49);
+    color: honeydew;
+}
+</style> 
+
+<body>
+    <header class="header">
+        <div class="left">
+        <img src="Screenshot (7).png" alt="">
+        <div>Mayank Fintness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+               <li><a href="#" class="active">Home</a></li>
+               <li><a href="#">Contact Us</a></li>
+               <li><a href="#">Fintness Calculator</a></li>
+               <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+<button class="btn">call us now</button><button class="btn">email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>join the best GYM of ghazibad</h1>
+        <form action="noaction.php">
+            <div class="from-group">
+                <input type="text"name=" " placeholder="Enter your name">
+            </div>
+            <div class="from-group">
+                <input type="text"name=" " placeholder="Enter your Age">
+            </div>
+            <div class="from-group">
+                <input type="text"name=" " placeholder="Enter your Gender">
+            </div>
+            <div class="from-group">
+                <input type="text"name=" " placeholder="Enter your Area">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
